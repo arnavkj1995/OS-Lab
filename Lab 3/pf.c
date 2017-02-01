@@ -6,6 +6,6 @@ main() {
 	a[3] = 78;
 	fd = open("exp", O_RDONLY);
 	i = read(fd, a, 5);
-	printf("%d %d %d", i, a[0], a[1]);
+	printf("%d %d %d ", i, a[0], a[1]);
 	printf("%d %d", a[2], a[3]);
 }
